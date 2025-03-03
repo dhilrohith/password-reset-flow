@@ -9,13 +9,15 @@ const Home = () => {
       <div className="space-x-4">
         <Link 
           to="/login" 
-          className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition"
+          className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition
+          focus:outline-2 focus:outline-offset-2 focus:outline-green-500 active:bg-green-700"
         >
           Login
         </Link>
         <Link 
           to="/register" 
-          className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded transition"
+          className="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded transition
+          focus:outline-2 focus:outline-offset-2 focus:outline-green-500 active:bg-green-700"
         >
           Register
         </Link>
